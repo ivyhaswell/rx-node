@@ -1,0 +1,30 @@
+{
+  "name": "rx-node",
+  "version": "1.0.0",
+  "description": "demo node application with typescript and rx",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivyhaswell/rx-node.git"
+  },
+  "keywords": [
+    "typescript",
+    "rx",
+    "node"
+  ],
+  "author": "EmMathilda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivyhaswell/rx-node/issues"
+  },
+  "homepage": "https://github.com/ivyhaswell/rx-node#readme",
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    
+  }
+}
