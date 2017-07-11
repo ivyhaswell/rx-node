@@ -2,16 +2,14 @@
  * @Author: shuwen.wang
  * @Date: 2017-07-11 18:14:23
  * @Last Modified by: shuwen.wang
- * @Last Modified time: 2017-07-11 18:36:17
+ * @Last Modified time: 2017-07-11 18:49:15
  */
 import * as express from 'express'
 
 const app = module.exports = express()
 
-// do something with the session
-app.use(count)
+app.get('/', count)
 
-// custom middleware
 let times = 0
 function count(req, res)
 {
