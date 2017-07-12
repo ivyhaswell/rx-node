@@ -22,11 +22,15 @@
   },
   "homepage": "https://github.com/ivyhaswell/rx-node#readme",
   "dependencies": {
+    "@types/underscore": "^1.8.1",
+    "crypto": "^0.0.3",
     "express": "^4.15.3",
     "gulp": "^3.9.1",
     "gulp-clean": "^0.3.2",
+    "gulp-nodemon": "^2.2.1",
     "gulp-typescript": "^3.2.0",
-    "typescript": "^2.4.1"
+    "typescript": "^2.4.1",
+    "underscore": "^1.8.3"
   },
   "devDependencies": {
     "@types/express": "^4.0.36"
