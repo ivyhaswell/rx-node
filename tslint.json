@@ -17,7 +17,7 @@
     "no-empty": true,
     "no-eval": true,
     "no-shadowed-variable": true,
-    "no-string-literal": true,
+    "no-string-literal": false,
     "no-unsafe-finally": true,
     "no-use-before-declare": true,
     "radix": true,
