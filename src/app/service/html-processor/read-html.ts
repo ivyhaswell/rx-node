@@ -7,7 +7,7 @@ function readHTML(filePath: string) {
     const cacheKey = md5(filePath)
     let html
     try {
-        html = cache.get(filePath)
+        html = cache.get(cacheKey)
         /* 拿不到缓存则读取文件 */
         if (!html) {
             console.log('not use html cache. cacheKey:', cacheKey, ' path:', filePath)
