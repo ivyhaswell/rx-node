@@ -83,7 +83,7 @@
       "properties"
     ],
     "file-header": [
-      true,
+      false,
       "@Author"
     ],
     "jsdoc-format": true,
