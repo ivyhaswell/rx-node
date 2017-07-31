@@ -1,20 +1,17 @@
-/*
- * @Author: shuwen.wang
- * @Date: 2017-07-11 18:14:23
- * @Last Modified by: shuwen.wang
- * @Last Modified time: 2017-07-31 16:07:32
- */
 import * as express from 'express'
 import * as path from 'path'
+import { Request, Response, NextFunction } from 'express'
 import htmlProcssor, { IHtmlProcessOption } from './app/service/html-processor'
+import resProcessor from './app/service/res-processor'
 
 const app = module.exports = express()
 
-app.get('/', count)
+app.get('/api/:count', count)
+app.get('/', test)
 
 let times = 0
 
-function count(req, res, next) {
+function test(req: Request, res: Response, next: NextFunction) {
     const option: IHtmlProcessOption = {
         filePath: path.resolve(__dirname, '../build/index.html'),
         fillVars: {
@@ -23,6 +20,32 @@ function count(req, res, next) {
     }
     times++
     htmlProcssor(req, res, next, option)
+}
+
+function count(req: Request, res: Response, next: NextFunction) {
+    const cnt = parseInt(req.params.count)
+    if (cnt > Math.pow(2, 10)) {
+        resProcessor.jsonp(req, res, {
+            state: {
+                code: 0,
+                msg: 'too large number',
+            },
+        })
+        return
+    }
+    if (cnt < 5) {
+        resProcessor.forbidden(req, res, 'too small number')
+        return
+    }
+    resProcessor.jsonp(req, res, {
+        state: {
+            code: 0,
+            msg: 'fit number',
+        },
+        data: {
+            count: times,
+        }
+    })
 }
 
 app.listen(3000)

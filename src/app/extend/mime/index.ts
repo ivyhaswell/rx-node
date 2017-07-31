@@ -1,9 +1,3 @@
-/*
- * @Author: shuwen.wang
- * @Date: 2017-07-12 10:49:13
- * @Last Modified by:   shuwen.wang
- * @Last Modified time: 2017-07-12 10:49:13
- */
 export const mime = {
     html: 'text/html',
     css: 'text/css',

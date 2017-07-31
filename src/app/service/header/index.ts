@@ -1,9 +1,3 @@
-/*
- * @Author: shuwen.wang
- * @Date: 2017-07-12 10:43:21
- * @Last Modified by: shuwen.wang
- * @Last Modified time: 2017-07-12 11:35:32
- */
 import { isString, isNumber } from 'underscore'
 import { time2Second } from '../../extend/time'
 import { mime } from '../../extend/mime'

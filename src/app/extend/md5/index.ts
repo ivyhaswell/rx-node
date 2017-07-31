@@ -1,9 +1,3 @@
-/*
- * @Author: shuwen.wang
- * @Date: 2017-07-12 09:40:17
- * @Last Modified by:   shuwen.wang
- * @Last Modified time: 2017-07-12 09:40:17
- */
 import { createHash } from 'crypto'
 
 /**

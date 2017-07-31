@@ -1,9 +1,3 @@
-/*
- * @Author: shuwen.wang
- * @Date: 2017-07-12 10:39:33
- * @Last Modified by: shuwen.wang
- * @Last Modified time: 2017-07-31 16:07:38
- */
 import * as fs from 'fs'
 import { each, isFunction } from 'underscore'
 

@@ -1,9 +1,3 @@
-/*
- * @Author: shuwen.wang
- * @Date: 2017-07-12 00:02:40
- * @Last Modified by: shuwen.wang
- * @Last Modified time: 2017-07-28 17:28:59
- */
 type timeTag = 'Y' | 'M' | 'D' | 'h' | 'm' | 's'
 const tagMap = {
     Y: 365 * 24 * 60 * 60,

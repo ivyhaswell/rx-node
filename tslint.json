@@ -20,7 +20,7 @@
     "no-string-literal": false,
     "no-unsafe-finally": true,
     "no-use-before-declare": true,
-    "radix": true,
+    "radix": false,
     "triple-equals": [
       true,
       "allow-null-check",
