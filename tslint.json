@@ -65,7 +65,7 @@
       "parameters",
       "statements"
     ],
-    "arrow-parens": true,
+    "arrow-parens": false,
     "class-name": true,
     "interface-name": [
       true,
