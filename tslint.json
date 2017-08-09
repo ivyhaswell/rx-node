@@ -1,0 +1,133 @@
+{
+  "rules": {
+    "member-access": false,
+    "no-require-imports": false,
+    "no-internal-module": true,
+    "no-namespace": [
+      true,
+      "allow-declarations"
+    ],
+    "no-reference": true,
+    "no-var-keyword": true,
+    "no-var-requires": true,
+    "prefer-for-of": true,
+    "curly": true,
+    "no-arg": true,
+    "no-duplicate-variable": true,
+    "no-empty": true,
+    "no-eval": true,
+    "no-shadowed-variable": true,
+    "no-string-literal": false,
+    "no-unsafe-finally": true,
+    "no-use-before-declare": true,
+    "radix": false,
+    "triple-equals": [
+      true,
+      "allow-null-check",
+      "allow-undefined-check"
+    ],
+    "switch-default": true,
+    "use-isnan": true,
+    "cyclomatic-complexity": [
+      true,
+      20
+    ],
+    "eofline": true,
+    "linebreak-style": [
+      false
+    ],
+    "max-classes-per-file": [
+      true,
+      3
+    ],
+    "max-file-line-count": [
+      true,
+      240
+    ],
+    "max-line-length": [
+      true,
+      200
+    ],
+    "no-unused-variable": [
+      true,
+      {
+        "ignore-pattern": "^_"
+      }
+    ],
+    "trailing-comma": [
+      true
+    ],
+    "array-type": [
+      "array-simple"
+    ],
+    "align": [
+      true,
+      "parameters",
+      "statements"
+    ],
+    "arrow-parens": false,
+    "class-name": true,
+    "interface-name": [
+      true,
+      "always-prefix"
+    ],
+    "comment-format": [
+      true,
+      "check-space"
+    ],
+    "completed-docs": [
+      true,
+      "classes",
+      "functions",
+      "methods",
+      "properties"
+    ],
+    "file-header": [
+      false,
+      "@Author"
+    ],
+    "jsdoc-format": true,
+    "no-angle-bracket-type-assertion": true,
+    "no-consecutive-blank-lines": [
+      true,
+      2
+    ],
+    "no-trailing-whitespace": true,
+    "object-literal-shorthand": true,
+    "one-line": [
+      true,
+      "check-catch",
+      "check-else",
+      "check-finally"
+    ],
+    "one-variable-per-declaration": [
+      true,
+      "ignore-for-loop"
+    ],
+    "quotemark": [
+      "single",
+      "jsx-single",
+      "avoid-escape"
+    ],
+    "semicolon": [
+      true,
+      "never"
+    ],
+    "variable-name": [
+      true,
+      "check-format",
+      "allow-leading-underscore",
+      "ban-keywords"
+    ],
+    "whitespace": [
+      true,
+      "check-branch",
+      "check-decl",
+      "check-operator",
+      "check-module",
+      "check-separator",
+      "check-type",
+      "check-typecast"
+    ]
+  }
+}

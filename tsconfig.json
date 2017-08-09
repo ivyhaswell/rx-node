@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "outDir": "dest",
+        "module": "commonjs",
+        "allowJs": true,
+        "downlevelIteration": true,
+        "locale": "zh-cmn-Hans",
+        "watch": true
+    }
+}

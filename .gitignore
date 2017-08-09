@@ -75,7 +75,12 @@ private/logs/
 .editorconfig
 .eslintrc.js
 
+# editor files #
+#################
 .vscode
 .vscode/launch.json
+
+# other files and dir #
+#######################
 todo.md
 dest
